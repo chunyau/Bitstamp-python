@@ -52,11 +52,6 @@ def buyorsell(x):
    
 
 def trade_callback(data): 
-#    value = [data['timestamp'],'Buy' if data[
-#            'type']==0 else 'Sell',data['price'],
-#    data['amount'],data['id'],
-#    data['buy_order_id'],data['sell_order_id']]
-#    print(data)
     data = json.loads(data)
     global df_trades
     df_trades = df_trades.append({'MTS':timestamp(data),
