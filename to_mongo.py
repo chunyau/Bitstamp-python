@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 21 21:44:42 2018
-
-@author: teng
-"""
 import sys
 #sys.path.append('C:\Users\teng\Anaconda3\Lib')
 import pusherclient 
